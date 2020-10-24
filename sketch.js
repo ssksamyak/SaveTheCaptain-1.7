@@ -224,7 +224,7 @@ function spikeObstacles(){
 }
 
 function rollerSpike(){
-  if(frameCount % 380 == 0){
+  if(frameCount % 240 == 0){
     roller = createSprite(windowWidth,ground.y - 125, 20, 20);
     roller.addAnimation("rolling_Spike",rollerImg);
     roller.scale = 0.15;
