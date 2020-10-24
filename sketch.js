@@ -292,7 +292,8 @@ function reset(){
   spikesGroup.destroyEach();
   fireBallGroup.destroyEach();
   silverCoinsGroup.destroyEach();
-  goldCoinsGroup.destroyEach()
+  goldCoinsGroup.destroyEach();
+  rollerGroup.destroyEach();
   
   cap.changeAnimation("running", capRunImg);
 }
